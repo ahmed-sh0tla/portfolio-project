@@ -17,14 +17,13 @@ header{
     background-color: rgba(0, 0, 0, 0.833);
 }
 
-
 .links {
     padding-top: 0px;
     display: flex;
     justify-content: right;
     gap: 40px;
     padding-top: 30px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .logo{
@@ -62,6 +61,91 @@ header{
     padding-top: 20px;
 }
 
+.iop::after{
+    content: '';
+    animation:  typing alternate 5s infinite;
+}
+
+@keyframes typing {
+
+    0%{
+        content: '|';
+    }
+
+    2%{
+        content: ' D|';
+    }
+
+    4%{
+        content: ' De|';
+    }
+
+    6%{
+        content: ' Dev|';
+    }
+
+    8%{
+        content: ' Deve|';
+    }
+
+    10%{
+        content: ' Devel|';
+    }
+
+    12%{
+        content: ' Develo|';
+    }
+
+    14%{
+        content: ' Develop|';
+    }
+
+    16%{
+        content: ' Develope|';
+    }
+
+    18%{
+        content: ' Developer|';
+    }
+
+    20%{
+        content: ' Develope|';
+    }
+
+    22%{
+        content: ' Develop|';
+    }
+
+    24%{
+        content: ' Develo|';
+    }
+
+    26%{
+        content: ' Devel|';
+    }
+
+    28%{
+        content: ' Deve|';
+    }
+
+    30%{
+        content: ' Dev|';
+    }
+
+    32%{
+        content: ' De|';
+    }
+
+    34%{
+        content: ' D|';
+    }
+
+    100%{
+        content: '|';
+    }
+
+}
+
 .info h1{
     font-size: 60px;
     color: darksalmon;
@@ -73,12 +157,11 @@ header{
 .sec-2{
     display: flex;
 }
-
 .sec-2 img{
     margin-top: 100px;
     margin-left: 200px;
     border-radius: 10px;
-    width: 350px ;
+    width: 350px ;    
 
 }
 
@@ -174,18 +257,19 @@ padding-top: 120px;
 }
 
 .sec-3{
-    background-color: rgba(211, 211, 211, 0.649);
+    background: rgba(211, 211, 211, 0.782);
     margin-top: 100px;
 }
 
 .sec-3 h2{
     text-align: center;
-    padding-top: 60px;
+    padding-top: 100px;
     font-size: 36px;
 }
 
 .cards{
     display: flex;
+    padding-bottom: 45px;
 }
 .card1 img{
     width: 50px;
@@ -193,8 +277,10 @@ padding-top: 120px;
     padding-top: 20px;
     transition: all 0.8s ease-in-out;
 }
-    
 
+
+
+    
 .card1 h3{
     text-align: center;
     padding-top: 20px;
@@ -204,12 +290,12 @@ padding-top: 120px;
    text-align: justify;
    text-align: center;
    padding-top: 20px;
-   padding-bottom: 20px;
+   padding-bottom: 40px;
 }
 
 .card1{
     width: 25%;
-    margin: 60px 20px ;
+    margin: 70px 20px ;
     transition: all 0.8s ease-in-out;
 }
 
@@ -218,11 +304,174 @@ padding-top: 120px;
     border-radius: 8px;
 }
 
+
+.sec-4{
+    height: 100vh;
+}
+
+
 .sec-4 h2{
     padding-top: 80px;
     text-align: center;
     font-size: 36px;
 }
+
+.cards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.cards2 img{
+    width: 333.3px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.c1:hover .overlay2{
+    opacity: 100;
+}
+
+.overlay2{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.551);
+    position: absolute;
+    top: 40px;
+    left: 75px;
+    width: 333.3px;
+    height: 250.3px;
+    transition:all 0.5s ;
+
+}
+
+.c2:hover .overlay3{
+    opacity: 100;
+}
+
+.overlay3{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.551);
+    position: absolute;
+    top: 40px;
+    left: 540px;
+    width: 333.3px;
+    height: 250.3px;
+    transition:all 0.5s ;
+
+}
+
+.c3:hover .overlay4{
+    opacity: 100;
+}
+
+
+.overlay4{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.551);
+    position: absolute;
+    top: 40px;
+    left: 1005px;
+    width: 333.3px;
+    height: 250.3px;
+    transition:all 0.5s ;
+
+}
+
+.c4:hover .overlay5{
+    opacity: 100;
+}
+
+.overlay5{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.551);
+    position: absolute;
+    top: 330px;
+    left: 75px;
+    width: 333.3px;
+    height: 250.3px;
+    transition:all 0.5s ;
+
+}
+
+.c5:hover .overlay6{
+    opacity: 100;
+}
+
+.overlay6{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.551);
+    position: absolute;
+    top: 333px;
+    left: 540px;
+    width: 333.3px;
+    height: 250.3px;
+    transition:all 0.5s ;
+
+}
+
+.c6:hover .overlay7{
+    opacity: 100;
+}
+
+.overlay7{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.551);
+    position: absolute;
+    top: 333px;
+    left: 1005px;
+    width: 333.3px;
+    height: 250.3px;
+    transition:all 0.5s ;
+
+}
+
+
+
+
+
+
+
+.linko{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.linko a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 40px;
+    color: rgba(9, 9, 9, 0.91);
+}
+
+.ha{
+    color: #e9967a !important;
+}
+
+
+.sec-5{
+    margin-top: 220px;
+    background: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding:  40px 80px 20px 80px;
+}
+
+.sec-5 p{
+    text-align: center;
+    position: relative;
+    right: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.er{
+    color: rgba(29, 29, 29, 0.796);
+    font-size: 25px !important;
+}
+
 
 
 
